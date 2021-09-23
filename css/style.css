@@ -221,6 +221,13 @@
   left: 65px;
   z-index: 1;
 }
+
+.explore__slider {
+  position: absolute;
+  bottom: 0;
+  right: -17px;
+  z-index: 3;
+}
 .explore__transfer {
   display: block;
 }
@@ -228,3 +235,48 @@
   color: #caaa7d;
 }
 /* --------- explore end ----------*/
+
+/* ---------- video start ---------- */
+
+.video__title {
+  font-family: "Forum";
+  font-weight: 400;
+  font-size: 80px;
+  letter-spacing: 5px;
+  color: #9d8665;
+}
+
+.video__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.video__description {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 39px;
+}
+.video__description-about {
+  display: block;
+}
+
+.video__img {
+  position: relative;
+  margin-top: 60px;
+  z-index: 1;
+}
+
+.video__img-pic {
+  position: relative;
+  z-index: 1;
+}
+
+.video__img-play {
+  position: absolute;
+  z-index: 2;
+  left: 40%;
+  bottom: 35%;
+}
+
+/* ---------- video end ------------*/

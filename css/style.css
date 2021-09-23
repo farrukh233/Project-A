@@ -193,15 +193,38 @@
 }
 
 .explore__description {
-  padding-top: 100px;
+  padding-top: 80px;
   color: #fff;
   font-family: "Roboto";
   font-size: 22px;
   font-weight: 300;
+  line-height: 39px;
 }
 
 .explore__wrapper {
   display: flex;
 }
 
+.explore__wrapper-second {
+  position: relative;
+}
+
+.explore__pic-one {
+  position: relative;
+  z-index: 3;
+  margin-left: 60px;
+}
+
+.explore__pic-two {
+  position: absolute;
+  bottom: 0;
+  left: 65px;
+  z-index: 1;
+}
+.explore__transfer {
+  display: block;
+}
+.explore__transfer span {
+  color: #caaa7d;
+}
 /* --------- explore end ----------*/

@@ -10,6 +10,7 @@
   margin: 0 auto;
   width: 1440px;
 }
+/* -------- header start --------- */
 
 .header__wrapper {
   display: flex;
@@ -27,7 +28,11 @@
 }
 
 .header__item {
-  margin-right: 70px;
+  margin-right: 60px;
+  font-family: "Roboto";
+  font-size: 22px;
+  letter-spacing: 2px;
+  font-weight: 100;
 }
 .header__item:last-child {
   margin-right: 0;
@@ -39,32 +44,56 @@
   line-height: 22px;
   text-decoration: none;
 }
-.welcome {
-  position: relative;
-}
+
+/* --------- header end ------- */
+
+/* --------- welcome start ------- */
 .welcome h1 {
   position: absolute;
   color: #fff;
   font-size: 80px;
   line-height: 90px;
-  top: 150px;
-  left: 235px;
+  top: 310px;
+  z-index: 2;
+  font-family: "Forum", cursive;
+  letter-spacing: 5px;
+}
+
+.welcome h1 span {
+  display: block;
 }
 
 .welcome p {
-  position: absolute;
-  top: 350px;
-  left: 235px;
   color: #fff;
   font-size: 20px;
+  position: absolute;
+  top: 510px;
+  font-weight: 300;
+  font-family: "Roboto";
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+.welcome__pic {
+  position: relative;
+  z-index: 1;
+  top: -90px;
 }
 
 .welcome__button {
-  padding: 15px 30px;
+  padding-left: 64px;
+  padding-right: 64px;
   border: 0;
   background: #710707;
   color: #fff;
-  font-size: 20px;
+  font-size: 22px;
+  position: absolute;
+  top: 610px;
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-weight: 300;
+  letter-spacing: 2px;
+  width: 365px;
+  height: 75px;
 }
 
 .welcome__wrapper {
@@ -72,3 +101,107 @@
   justify-content: space-between;
   align-items: center;
 }
+
+/* --------- welcome end ------- */
+
+/* --------- visiting start ------- */
+
+.visiting__title {
+  font-family: "Forum";
+  font-weight: 400;
+  font-size: 80px;
+  letter-spacing: 5px;
+  line-height: 90px;
+  color: #9d8665;
+  position: relative;
+  padding-bottom: 28px;
+  margin-top: 75px;
+}
+
+.visiting__title::after {
+  display: block;
+  content: "";
+  width: 1440px;
+  height: 3px;
+  background-color: #710707;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.visiting__cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+.visiting__card {
+  flex: 1 1 auto;
+  margin-top: 55px;
+}
+
+.visiting__card-description {
+  font-family: "Forum";
+  font-size: 32px;
+  position: relative;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  padding-top: 10px;
+}
+
+.visiting__card-description::after {
+  display: block;
+  content: "";
+  width: 300px;
+  height: 2px;
+  background-color: #710707;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.visiting__card-description-google {
+  font-family: "Roboto";
+  font-weight: 100;
+  padding-top: 10px;
+  font-size: 22px;
+}
+/* --------- visiting end ------- */
+
+/* --------- explore start -------*/
+
+.explore__title {
+  font-family: "Forum";
+  font-weight: 400;
+  font-size: 80px;
+  letter-spacing: 5px;
+  color: #fff;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.explore__title::after {
+  display: block;
+  content: "";
+  width: 660px;
+  height: 3px;
+  background-color: #710707;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.explore__description {
+  padding-top: 100px;
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.explore__wrapper {
+  display: flex;
+}
+
+/* --------- explore end ----------*/

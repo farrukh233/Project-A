@@ -434,15 +434,27 @@
   font-weight: 700;
   font-size: 28px;
   line-height: 33px;
+  margin-bottom: 25px;
+  padding-left: 50px;
 }
 
 .ticket__variation-ul {
   list-style: circle;
+  position: absolute;
+  left: 16%;
 }
 
 .tickets__variation {
   position: absolute;
   right: 36%;
+  white-space: nowrap;
+}
+
+.tickets__li {
+  padding-bottom: 15px;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 22px;
 }
 
 .tickets__calc-prog {
@@ -452,6 +464,7 @@
   width: 150px;
   height: 50px;
   border: 3px solid #000;
+  margin-bottom: 10px;
 }
 
 .tickets__calc-minus {
@@ -472,4 +485,58 @@
   font-size: 32px;
 }
 
-/* ---------- tickets end --------------*/ ;
+.tickets__calc-title {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.tickets__container {
+  position: relative;
+}
+
+.tickets__price p {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: 1.65px;
+  position: absolute;
+  right: 0;
+  bottom: 40%;
+}
+
+.tickets__buy {
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 300;
+  align-items: center;
+  letter-spacing: 2px;
+  position: absolute;
+  right: 0;
+  bottom: 25%;
+  color: #fff;
+  background-color: #000;
+  width: 175px;
+  height: 50px;
+  border: 0;
+}
+
+.tickets__parallax {
+  background: url("../assets/img/parallax.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 400px;
+}
+
+/* ---------- tickets end --------------*/
+
+.contacts__title {
+  color: #9d8665;
+  font-family: "Forum";
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+}

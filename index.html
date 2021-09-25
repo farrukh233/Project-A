@@ -16,10 +16,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Forum&family=Roboto:wght@100;300&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
     <title>museum</title>
   </head>
   <body>
@@ -268,6 +267,7 @@
       <section class="tickets section">
           <div class="container">
               <h3 class="tickets__title">BUY TICKETS</h3>
+              <div class="tickets__container">
               <div class="tickets__wrapper">
                   <div class="tickets__img">
                       <img src="assets/img/ticket.png"/>
@@ -275,21 +275,21 @@
                   <div class="tickets__variation">
                       <p class="ticket__variation-li">Ticket Type</p>
                       <ul class="ticket__variation-ul">
-                          <li class="first__variation">Permanent exhibition</li>
-                          <li class="second__variation">Temporary exhibition</li>
-                          <li class="third__variation">Combined Admission</li>
+                          <li class="tickets__li">Permanent exhibition</li>
+                          <li class="tickets__li">Temporary exhibition</li>
+                          <li class="tickets__li">Combined Admission</li>
                       </ul>
                   </div>
                   <div class="tickets__calc">
                       <p class="tickets__calc-about">
                           Amount
                       </p>
-                      <p>
+                      <p class="tickets__calc-title">
                           Basic 18+
                       </p>
                       <div class="tickets__calc-prog">
                         <div class="tickets__calc-minus">
-                          -
+                          —
                         </div>
                         <div class="tickets__calc-numb">
                           1
@@ -298,13 +298,36 @@
                           +
                         </div>
                       </div>
+                      <p class="tickets__calc-title">
+                        Senior 65+
+                    </p>
                       <div class="tickets__calc-prog">
-                        
+                        <div class="tickets__calc-minus">
+                          —
+                        </div>
+                        <div class="tickets__calc-numb">
+                          1
+                        </div>
+                        <div class="tickets__calc-plus">
+                          +
+                        </div>
                       </div>
                   </div>
                   </div>
+                  <div class="tickets__price">
+                    <p>Total €220</p>
+                  </div>
+                  <button class="tickets__buy">
+                    Buy Now
+                  </button>
+                </div>
               </div>
-          </div>
+      </section>
+      <div class="tickets__parallax"></div>
+      <section class="contacts section">
+        <div class="container">
+        <h3 class="contacts__title">CONTACTS</h3>
+        </div>
       </section>
     </main>
     <footer class="footer"></footer>

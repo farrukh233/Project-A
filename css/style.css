@@ -115,6 +115,12 @@ html {
   width: 365px;
   height: 75px;
   cursor: pointer;
+  text-decoration: none;
+}
+
+.welcome_button p {
+  position: absolute;
+  z-index: 3;
 }
 
 .welcome__button:hover {
@@ -371,6 +377,10 @@ html {
   position: absolute;
   right: 45%;
   margin-top: 30px;
+}
+
+.video__about iframe {
+  border: 0;
 }
 
 /* ---------- video end ------------*/
